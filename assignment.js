@@ -1,4 +1,4 @@
-
+// https://github.com/ankancse96/assignment-3
 
 
 // kilometerToMeter convert
@@ -33,7 +33,8 @@ function hotelCost(day){
     var remaininig= day - 10;
     var second= remaininig * 80;
     cost = first + second;
-    }else{
+    }
+    else{
     var first=10*100;
     var second= 10 * 80;
     var remaininig= day - 20;
